@@ -1,3 +1,5 @@
+
+```{bash}
 path=/home/richards/tomoko.nakanishi/scratch/09.COVID19/05.BQC/01.genotypeQC/v4.0
 
 awk 'BEGEIN{FS="\t"}{print $2}' $path/bqc-v4.0-qc5-EUR.bim > $path/qc.snplist
@@ -84,3 +86,4 @@ plink --bfile $path/bqc19-v4.0-qc3 \
 --out $path/bqc19-v4.0-qc6
 
 #final QCed sample and genotype!!!
+```
