@@ -1,6 +1,6 @@
 ```{bash}
-path=/home/richards/tomoko.nakanishi/scratch/09.COVID19/05.BQC/01.genotypeQC/v4.0
-data=/home/richards/tomoko.nakanishi/09.COVID19/src/05.BQC/01.genotypeQC/data/v4.0/08.PC/
+path=/scratch/richards/tomoko.nakanishi/09.COVID19/05.BQC/01.genotypeQC/v4.0
+data=/project/richards/tomoko.nakanishi/09.COVID19/data/05.BQC/01.genotype/v4.0/08.PC/
 plink --bfile $path/bqc19-v4.0-qc6 \
 --biallelic-only strict \
 --chr 1-22 \
