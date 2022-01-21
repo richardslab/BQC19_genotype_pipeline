@@ -1,8 +1,14 @@
 ```{bash}
+<<<<<<< HEAD
 path=/scratch/richards/tomoko.nakanishi/09.COVID19/05.BQC/01.genotypeQC/v5.0/
 data=/project/richards/tomoko.nakanishi/09.COVID19/data/05.BQC/01.genotype/v5.0
 
 plink --bfile $path/bqc19-v5.0-qc6 \
+=======
+path=/scratch/richards/tomoko.nakanishi/09.COVID19/05.BQC/01.genotypeQC/v4.0
+data=/project/richards/tomoko.nakanishi/09.COVID19/data/05.BQC/01.genotype/v4.0/08.PC/
+plink --bfile $path/bqc19-v4.0-qc6 \
+>>>>>>> 80b72a77d336eadc00009c9c6ae201e05828db00
 --biallelic-only strict \
 --chr 1-22 \
 --exclude range ../data/LdRegion-AbecasisHg38.txt \
