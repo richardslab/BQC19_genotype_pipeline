@@ -1,7 +1,7 @@
-setwd("/home/richards/tomoko.nakanishi/scratch/09.COVID19/05.BQC/01.genotypeQC/v4.0")
+setwd("/scratch/richards/tomoko.nakanishi/09.COVID19/05.BQC/01.genotypeQC/v5.0/")
 
 library(data.table)
-png(file="control.fig1.png", width=1200, height=600, res=150)
+png(file="/project/richards/tomoko.nakanishi/repo/BQC19_genotype_pipeline/results/04.genotypeQC/control.fig1.png", width=1200, height=600, res=150)
 par(mfrow=c(1,2))
 c1 <- fread("CEPH1463.frqx")
 c1$d <- apply(c1[,5:7], 1, function(x){1- max(x, na.rm=T)/sum(x, na.rm=T)})

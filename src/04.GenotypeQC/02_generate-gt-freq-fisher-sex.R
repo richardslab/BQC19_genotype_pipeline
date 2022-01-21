@@ -1,4 +1,4 @@
-setwd("/home/richards/tomoko.nakanishi/scratch/09.COVID19/05.BQC/01.genotypeQC/v4.0/")
+setwd("/scratch/richards/tomoko.nakanishi/09.COVID19/05.BQC/01.genotypeQC/v5.0/")
 library(foreach)
 library(doMC)
 library(data.table)
